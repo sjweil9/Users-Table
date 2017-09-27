@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 10px;
+}
+table{
+    width: 600px;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+    thead td{
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        font-weight: bold;        
+    }
+    table td:first-child{
+        border-left: 1px solid black;
+    }
+    table td:last-child{
+        border-right: 1px solid black;
+    }
+    table td{
+        padding: 5px;
+    }
+    table tr:last-child td{
+        border-bottom: 1px solid black;
+    }
+h1{
+    border-bottom: 2px solid black;
+    width: 400px;
+    margin-bottom: 15px;
+}
+form{
+    width: 400px;
+}
+label{
+    display: block;
+    width: 250px;
+    margin: 0 0 5px auto;
+    text-align: right;
+}
+input{
+    display: inline;
+}
+input[type="submit"]{
+    display: block;
+    margin: 25px 0 0 auto;
+}
